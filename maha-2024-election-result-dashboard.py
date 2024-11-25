@@ -102,4 +102,4 @@ def create_graph(_, user_input):
         return "", result_output
 
 if __name__ == "__main__":
-    app.run_server(debug=False, port=8807)
+    app.run_server(debug=False, host='0.0.0.0', port=8807)
