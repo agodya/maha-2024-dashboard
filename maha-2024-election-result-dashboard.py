@@ -103,10 +103,3 @@ def create_graph(_, user_input):
 
 if __name__ == "__main__":
     app.run_server(debug=False, port=8807)
-
-
-
-
-
-
-print(df_5_rows)
